@@ -1,0 +1,16 @@
+.Projeto_novo_container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+    
+}
+
+.Projeto_novo_container h1{
+    margin-bottom: .5em;
+
+}
+
+.Projeto_novo_container p{
+    color: #7b7b7b;
+    
+}
