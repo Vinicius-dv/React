@@ -52,11 +52,11 @@ function Project_form({handleSubmit,btn_text,projectDados}){
 
     return(
         <form onSubmit={submit} className={styles.form} action="">
-            <Input type="text" text="Nome do projeto" name="name" placeholder="Insira o nome do projeto" handleOnchange={handleChange} value={project.name ? project.name:''}/>
+            <Input type="text" text="Nome do projeto" name="name" placeholder="Insira o nome do projeto" handleOnchange={handleChange} value={project.name ? project.name:''} required/>
 
-            <Input type="number" text="Orçamento do projeto" name="budget" placeholder="Insira o valor do projeto"  handleOnchange={handleChange} value={project.budget ? project.budget:''}/>
+            <Input type="number" text="Orçamento do projeto" name="budget" placeholder="Insira o valor do projeto"  handleOnchange={handleChange} value={project.budget ? project.budget:''} required/>
 
-            <Select name="category_id" text="Selecione a categoria" options={categories} handleOnchange={handleCategory} value={project.Category ? project.Category.id:''}/>
+            <Select name="category_id" text="Selecione a categoria" options={categories} handleOnchange={handleCategory} value={project.Category ? project.Category.id:''} required/>
 
             <Submit text={btn_text}/>
         </form>

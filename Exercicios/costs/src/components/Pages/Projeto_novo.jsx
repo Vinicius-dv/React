@@ -19,7 +19,7 @@ function Projeto_novo(){
         .then((res)=>res.json())
         .then((dados)=>{
             console.log(dados)
-            Usenavigate.push('/project',{message:'Projeto criado'})
+            Usenavigate('/projects', {state: { message: 'Projeto criado' }})
         })
         .catch((err)=>{
             console.log(err)
