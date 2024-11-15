@@ -1,20 +1,9 @@
 {
   "project": [
     {
-      "id": "8973",
-      "name": "Fuscão ",
-      "budget": "5000",
-      "Category": {
-        "id": "4",
-        "name": "Planejamentos"
-      },
-      "costs": 0,
-      "services": []
-    },
-    {
       "id": "a1ea",
       "name": "Chevette turbo",
-      "budget": "20000",
+      "budget": "30000",
       "Category": {
         "id": "2",
         "name": "desenvolvimento"
@@ -24,11 +13,11 @@
     },
     {
       "id": "db96",
-      "name": "Civic si",
-      "budget": "80000",
+      "name": "Civic si envenenado",
+      "budget": "160000",
       "Category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Planejamentos"
       },
       "costs": 0,
       "services": []
@@ -40,17 +29,6 @@
       "Category": {
         "id": "1",
         "name": "Infra"
-      },
-      "costs": 0,
-      "services": []
-    },
-    {
-      "id": "556f",
-      "name": "civic",
-      "budget": "10000",
-      "Category": {
-        "id": "2",
-        "name": "desenvolvimento"
       },
       "costs": 0,
       "services": []
