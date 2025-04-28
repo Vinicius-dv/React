@@ -1,6 +1,6 @@
-import Button_lamp from "./Desafios/desafio_005/Button_desafio"
+import Array from "./Desafios/desafio_006/Array"
 function App() {
-    return <Button_lamp/>
+    return <Array/>
 }
 
 export default App
