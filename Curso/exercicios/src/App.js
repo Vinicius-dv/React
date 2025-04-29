@@ -1,6 +1,6 @@
-import Array from "./Desafios/desafio_006/Array"
+import Carrocel from "./Desafios/desafio_007/Carrocel"
 function App() {
-    return <Array/>
+    return <Carrocel/>
 }
 
 export default App
