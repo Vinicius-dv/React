@@ -1,6 +1,6 @@
-import Form from "./Desafios/desafio_009/Form"
+import Array from "./Desafios/desafio_010/Ex010"
 function App() {
-    return <Form/>
+    return <Array/>
 }
 
 export default App
