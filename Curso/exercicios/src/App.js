@@ -1,6 +1,6 @@
-import Array from "./Desafios/desafio_010/Ex010"
+import Carrinho from "./Desafios/desafio_013/Carrinho"
 function App() {
-    return <Array/>
+    return <Carrinho/>
 }
 
 export default App
