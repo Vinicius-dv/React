@@ -1,0 +1,12 @@
+.main_img{
+    padding-left: 0%;
+}
+.active_img{
+    padding-left: 30%;
+}
+.main_div{
+    background-color: purple;
+}
+.active{
+    background-color: white;
+}
