@@ -1,7 +1,9 @@
-import Ex021 from "./Desafios/desafio_021/Ex021"
+import Main from "./Exercicios/Ex008/Main"
 function App(){
     return(
-        <Ex021/>
+        <>
+            <Main/>
+        </>
     )
 }
 export default App
