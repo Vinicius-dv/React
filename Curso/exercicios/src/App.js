@@ -1,4 +1,4 @@
-import Main from "./Exercicios/Ex009/Main"
+import Main from "./Exercicios/Ex010/Ex010"
 function App(){
     return(
         <>
