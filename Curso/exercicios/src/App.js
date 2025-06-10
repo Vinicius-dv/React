@@ -1,8 +1,8 @@
-import Main from "./Exercicios/Ex010/Ex010"
+import Cad from "./Projetos/Cadastro/Cadastro"
 function App(){
     return(
         <>
-            <Main/>
+            <Cad/>
         </>
     )
 }
